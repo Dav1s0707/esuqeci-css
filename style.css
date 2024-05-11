@@ -1,0 +1,59 @@
+:root {
+    --font: "Montserrat", sans-serif;
+    --font-negrito: 30px bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font: var(--font)
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0 0 1%;
+}
+
+.titulo h2 {
+    font: var(--font-negrito)
+}
+
+.subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+.imagem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin: 1% 0 0 1%;
+}
+
+.imagem img {
+    border-radius: 5%;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotos {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    border-radius: 5%;
+}
