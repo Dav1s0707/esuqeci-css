@@ -63,17 +63,23 @@ h3 {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: auto;
 
 }
 
 .fotos {
     display: flex;
-    margin: 16px;
-    max-height: 300px;
-    min-height: 50px;
+    max-height: 50%;
+    width: auto;
+    min-height: 20%;
     border-radius: var(--border-radius);
     aspect-ratio: 1;
     border: #000 solid 1px;
+}
+
+.ftsmarg{
+    margin: 0 0 16px 0;
+
 }
 
 
